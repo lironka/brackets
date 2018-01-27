@@ -1,5 +1,5 @@
 # Brackets Task
-## Isssue
+## Issue
 At the input there is a line containing only brackets from the set {}()[]. 
 It is necessary to determine whether it is balanced or not.
 
