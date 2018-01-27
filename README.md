@@ -12,10 +12,14 @@ A balanced line is a string in which three conditions are fulfilled:
 That is, [([]{[]})] is balanced, but {[}], [{)] and ]{}[ - are not.
 
 ## Installation instructions
-Be sure to have installed [Node.js](http://nodejs.org/) in your system and [Mocha](https://mochajs.org/#installation) and [Should](https://www.npmjs.com/package/should) for testing.
+Be sure to have installed [Node.js](http://nodejs.org/) in your system for testing.
+Install dependencies:
+```bash
+npm install
+```
 
 ## Run tests
 In terminal in the folder:
 ```bash
-NODE_ENV=test mocha
+npm test
 ```
